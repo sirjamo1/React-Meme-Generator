@@ -1,17 +1,9 @@
+import Navbar from "./components/Header.js";
 
-import "./App.css";
-import nameData from "./components/nameData.js"
-import Name from "./components/Name.js";
-
-function App() {
-  const firstAndLast = nameData.map(x => {
-    return <Name first={x.first} last={x.last} />
-  })
+export default function App() {
   return (
-    <>
-      {firstAndLast}
-    </>
+    <div className="card--main-container">
+      <Navbar />
+    </div>
   );
 }
-
-export default App;

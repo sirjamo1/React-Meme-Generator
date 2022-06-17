@@ -12,11 +12,11 @@ code {
     monospace;
 }
 
-/*👉**************NAVBAR**************👈*/
+/*👉**************header**************👈*/
 .header {
   width: 550px;
   height: 55px;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   font-size: 15px;
   color: white;
   display: flex;
@@ -32,17 +32,17 @@ code {
 }
 .trollFaceImg {
   width: 31.31px;
-height: 26.22px;
-margin-left: 40px;
+  height: 26.22px;
+  margin-left: 40px;
 }
-.header>h3 {
+.header > h3 {
   font-weight: 700;
   font-size: 20px;
-
 }
-.header>h5 {
+.header > h5 {
   font-weight: 500;
   font-size: 12px;
   margin-right: 40px;
-
 }
+
+/*👉*************form**************👈*/
